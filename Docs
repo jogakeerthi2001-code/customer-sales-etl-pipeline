@@ -2,3 +2,12 @@ docs/README.md
 
 # Documentation
 This folder contains project documentation, diagrams, and workflow explanations.
+
+#workflow.md
+Databricks → Snowflake → Power BI
+## ETL Workflow
+1. Raw CSV ingested into Databricks.
+2. Data cleaned & enriched (GrossMargin, NetRevenue, SalesYear, SalesMonth).
+3. Curated view published to Snowflake.
+4. Power BI connected to Snowflake for dashboards.
+
